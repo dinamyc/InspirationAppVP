@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D78A81B2F3CFFA700DDF203 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 8D78A81A2F3CFFA700DDF203 /* RealityKitContent */; };
+		8D0F7CC62F43B75C00F27374 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 8D0F7CC52F43B75C00F27374 /* RealityKitContent */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D0F7CC32F43B66400F27374 /* RealityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityKit.framework; path = System/Library/Frameworks/RealityKit.framework; sourceTree = SDKROOT; };
 		8D78A8152F3CFFA700DDF203 /* Inspiration4App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inspiration4App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D78A8192F3CFFA700DDF203 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,18 +42,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D78A81B2F3CFFA700DDF203 /* RealityKitContent in Frameworks */,
+				8D0F7CC62F43B75C00F27374 /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D0F7CC22F43B5FB00F27374 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D0F7CC32F43B66400F27374 /* RealityKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8D78A80C2F3CFFA700DDF203 = {
 			isa = PBXGroup;
 			children = (
 				8D78A8172F3CFFA700DDF203 /* Inspiration4App */,
 				8D78A8182F3CFFA700DDF203 /* Packages */,
+				8D0F7CC22F43B5FB00F27374 /* Frameworks */,
 				8D78A8162F3CFFA700DDF203 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +103,7 @@
 			);
 			name = Inspiration4App;
 			packageProductDependencies = (
-				8D78A81A2F3CFFA700DDF203 /* RealityKitContent */,
+				8D0F7CC52F43B75C00F27374 /* RealityKitContent */,
 			);
 			productName = Inspiration4App;
 			productReference = 8D78A8152F3CFFA700DDF203 /* Inspiration4App.app */;
@@ -357,7 +367,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8D78A81A2F3CFFA700DDF203 /* RealityKitContent */ = {
+		8D0F7CC52F43B75C00F27374 /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
 		};
