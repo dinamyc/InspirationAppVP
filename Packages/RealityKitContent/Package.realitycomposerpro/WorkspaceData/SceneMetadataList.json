@@ -15,14 +15,6 @@
     "objectMetadataList" : [
       [
         "65F6F990-A780-4474-B78B-572E0E4E273D",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "65F6F990-A780-4474-B78B-572E0E4E273D",
         "Root",
         "Earth"
       ],
@@ -47,6 +39,14 @@
       {
         "isExpanded" : true,
         "isLocked" : false
+      },
+      [
+        "65F6F990-A780-4474-B78B-572E0E4E273D",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
       }
     ]
   },
@@ -62,11 +62,34 @@
       }
     ]
   },
+  "A1802D06-AAEF-4500-A1EB-790E6DB61947" : {
+    "objectMetadataList" : [
+      [
+        "A1802D06-AAEF-4500-A1EB-790E6DB61947",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "AF09ED6F-1707-48FD-8720-65B998362C09" : {
     "objectMetadataList" : [
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
-        "Root"
+        "Root",
+        "SkyDome"
+      ],
+      {
+        "disallowsFraming" : true,
+        "isExpanded" : false,
+        "isLocked" : false
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root",
+        "_GridMaterial"
       ],
       {
         "isExpanded" : true,
@@ -84,7 +107,16 @@
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
         "Root",
-        "Falcon_9_SpaceX_rocket"
+        "Rocket"
+      ],
+      {
+        "disallowsFraming" : false,
+        "isExpanded" : false,
+        "isLocked" : false
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -105,7 +137,7 @@
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
         "Root",
-        "_GridMaterial"
+        "Falcon_9_SpaceX_rocket"
       ],
       {
         "isExpanded" : true,
@@ -117,8 +149,7 @@
     "objectMetadataList" : [
       [
         "CB766F92-EE55-4A63-9401-E7B8C009764D",
-        "Root",
-        "GridMaterial"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -126,7 +157,8 @@
       },
       [
         "CB766F92-EE55-4A63-9401-E7B8C009764D",
-        "Root"
+        "Root",
+        "GridMaterial"
       ],
       {
         "isExpanded" : true,
@@ -143,7 +175,9 @@
     "objectMetadataList" : [
       [
         "D66134B1-3681-4A8E-AFE5-29F257229F3B",
-        "Root"
+        "Root",
+        "GridMaterial",
+        "GridMaterial"
       ],
       {
         "isExpanded" : true,
@@ -151,9 +185,7 @@
       },
       [
         "D66134B1-3681-4A8E-AFE5-29F257229F3B",
-        "Root",
-        "GridMaterial",
-        "GridMaterial"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -166,7 +198,8 @@
       [
         "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
         "Root",
-        "Rocket"
+        "Rocket",
+        "Materials"
       ],
       {
         "isExpanded" : true,
@@ -175,8 +208,33 @@
       [
         "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
         "Root",
-        "Rocket",
-        "Materials"
+        "GridMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
+        "Root",
+        "Earth"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
+        "Root",
+        "Rocket"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -197,7 +255,8 @@
       [
         "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
         "Root",
-        "GridMaterial"
+        "Rocket",
+        "Meshes"
       ],
       {
         "isExpanded" : true,
@@ -213,29 +272,23 @@
       {
         "isExpanded" : true,
         "isLocked" : false
+      }
+    ]
+  },
+  "EAC32F40-AA6C-4EE3-9B26-7F69EFEE3A14" : {
+    "objectMetadataList" : [
+      [
+        "EAC32F40-AA6C-4EE3-9B26-7F69EFEE3A14",
+        "Root",
+        "Submarine"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
       },
       [
-        "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
+        "EAC32F40-AA6C-4EE3-9B26-7F69EFEE3A14",
         "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
-        "Root",
-        "Rocket",
-        "Meshes"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
-        "Root",
-        "Earth"
       ],
       {
         "isExpanded" : true,
