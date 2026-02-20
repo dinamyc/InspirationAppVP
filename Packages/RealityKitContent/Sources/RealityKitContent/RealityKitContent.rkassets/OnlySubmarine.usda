@@ -14,23 +14,35 @@ def Xform "Root" (
     }
 )
 {
+    reorder nameChildren = ["_GridMaterial", "Submarine", "AtmospheresOcean"]
     quatf xformOp:orient = (0.70710677, 0, 0.70710677, 0)
     float3 xformOp:scale = (1, 1, 1)
     float3 xformOp:translate = (0, 0, 0)
     uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
 
-    def "Submarine" (
+    def "_GridMaterial" (
         active = true
-        customData = {
-            float3 rotationEulerHint = (0, 3.1415927, 0)
-        }
-        prepend references = @Submarine.usdz@
+        references = @_GridMaterial.usda@
     )
     {
-        quatf xformOp:orient = (-4.371139e-8, 0, 1, 0)
-        float3 xformOp:scale = (0.000099999976, 0.000099999976, 0.000099999976)
-        float3 xformOp:translate = (0, 0, 0)
+        reorder nameChildren = ["Submarine", "GridMaterial"]
+        quatf xformOp:orient = (0.70710677, 0, -0.7071067, 0)
+        float3 xformOp:scale = (0.99999994, 0.99999994, 0.99999994)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def "Submarine" (
+            active = true
+            customData = {
+                float3 rotationEulerHint = (0, 3.1415927, 0)
+            }
+            references = @Submarine.usdz@
+        )
+        {
+            quatf xformOp:orient = (0.7071068, 0, -0.7071067, 0)
+            float3 xformOp:scale = (0.00009999999, 0.00009999999, 0.00009999999)
+            float3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
     }
 }
 

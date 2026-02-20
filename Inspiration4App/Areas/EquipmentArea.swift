@@ -30,12 +30,6 @@ struct EquipmentArea: View {
             } dismissCard: {
                 await dismissImmersiveSpace()
             }
-            
-            /*EquipmentCard(isShowing: $model.isShowingMixedRocket, toggleTitle: "Rocket (Mixed Immersive Space)", imageName: "equipment-mixedrocket") {
-                await openImmersiveSpace(id: model.mixedRocketRealityArea)
-            } dismissCard: {
-                await dismissImmersiveSpace()
-            }*/
         }
     }
 }
