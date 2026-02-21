@@ -9,47 +9,51 @@ import SwiftUI
 
 struct NavigationToAreas: View {
     var body: some View {
-        VStack {
-            Text("Welcome To Inspiration4 Mission By SpaceX")
-                .monospaced()
-                .font(.system(size: 40, weight: .bold))
-                .padding(.top, 250)
             
-            HStack(spacing: 25) {
-                ForEach(Area.allCases) { area in
-                    NavigationLink {
-                        // navigation link destination area
-                        
-                        // header area
-                        Text(area.title)
-                            .monospaced()
-                            .font(.system(size: 40, weight: .bold))
-                        
-                        // sub-views go here
-                        if area == Area.astronauts {
-                            CrewArea()
+            VStack {
+                Text("Welcome To Ocean Museum")
+                    .monospaced()
+                    .font(.system(size: 40, weight: .bold))
+                    .foregroundStyle(.white)
+                    .padding(.top, 50)
+                
+                HStack(spacing: 25) {
+                    ForEach(Area.allCases) { area in
+                        NavigationLink {
+                            
+                            // header area
+                            Text(area.title)
+                                .monospaced()
+                                .font(.system(size: 40, weight: .bold))
+                            
+                            // sub-views go here
+                            if area == Area.oceanCreatures {
+                                OceanArea()
+                            }
+                            else if area == Area.equipment {
+                                EquipmentArea()
+                            }
+                            else if area == Area.mission {
+                                SubmarineRealityArea()
+                            }
+                            
+                        } label: {
+                            Label(area.name, systemImage: "chevron.right")
+                                .monospaced()
+                                .font(.title)
                         }
-                        else if area == Area.equipment {
-                            EquipmentArea()
-                        }
-                        else if area == Area.mission {
-                            SubmarineRealityArea()
-                        }
-                        
-                        Spacer()
-                    } label: {
-                        Label(area.name, systemImage: "chevron.right")
-                            .monospaced()
-                            .font(.title)
+                        .controlSize(.extraLarge)
                     }
-                    .controlSize(.extraLarge)
                 }
-            }
         }
-        .background()
-        {
-            Image("Inspiration4")
-        }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(
+                Image("Ocean")
+                    .resizable()
+                    .scaledToFill()
+                    .ignoresSafeArea()
+            )
+            .clipped()
     }
 }
 

@@ -1,5 +1,5 @@
 //
-//  CrewArea.swift
+//  OceanArea.swift
 //  Inspiration4App
 //
 //  Created by Jose Luis Enriquez on 2/11/26.
@@ -7,19 +7,19 @@
 
 import SwiftUI
 
-struct CrewArea: View {
+struct OceanArea: View {
     var body: some View {
         HStack {
-            ForEach(Crew.allCases) { crew in
+            ForEach(OceanCreatures.allCases) { creature in
                 VStack(alignment: .leading, spacing: 10){
-                    Image("crew-\(crew.name)")
+                    Image("oceancreture-\(creature.name)")
                         .resizable()
                         .frame(width: 180, height: 200)
                     
-                    Text(crew.fullName)
+                    Text(creature.fullName)
                         .font(.system(size: 32, weight: .bold))
                     
-                    Text(crew.about)
+                    Text(creature.about)
                         .font(.system(size: 20))
                 }
                 .frame(minWidth: 180, minHeight: 200)
@@ -32,5 +32,5 @@ struct CrewArea: View {
 }
 
 #Preview {
-    CrewArea()
+    OceanArea()
 }

@@ -33,8 +33,7 @@
       },
       [
         "65F6F990-A780-4474-B78B-572E0E4E273D",
-        "Root",
-        "Earth"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -42,7 +41,8 @@
       },
       [
         "65F6F990-A780-4474-B78B-572E0E4E273D",
-        "Root"
+        "Root",
+        "Earth"
       ],
       {
         "isExpanded" : true,
@@ -79,11 +79,50 @@
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
         "Root",
+        "_GridMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root",
+        "GridMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root",
         "Rocket"
       ],
       {
         "disallowsFraming" : false,
         "isExpanded" : false,
+        "isLocked" : false
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root",
+        "AmbientAudio"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/Space"
+        }
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root",
+        "Falcon_9_SpaceX_rocket"
+      ],
+      {
+        "isExpanded" : true,
         "isLocked" : false
       },
       [
@@ -103,45 +142,6 @@
         "disallowsFraming" : true,
         "isExpanded" : false,
         "isLocked" : false
-      },
-      [
-        "AF09ED6F-1707-48FD-8720-65B998362C09",
-        "Root",
-        "Falcon_9_SpaceX_rocket"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "AF09ED6F-1707-48FD-8720-65B998362C09",
-        "Root",
-        "_GridMaterial"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "AF09ED6F-1707-48FD-8720-65B998362C09",
-        "Root",
-        "GridMaterial"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "AF09ED6F-1707-48FD-8720-65B998362C09",
-        "Root",
-        "AmbientAudio"
-      ],
-      {
-        "isExpanded" : false,
-        "isLocked" : false,
-        "selectedAudioFilePrim" : {
-          "string" : "\/Root\/Space"
-        }
       }
     ]
   },
@@ -185,6 +185,25 @@
       },
       [
         "D66134B1-3681-4A8E-AFE5-29F257229F3B",
+        "Root",
+        "_GridMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D66134B1-3681-4A8E-AFE5-29F257229F3B",
+        "Root",
+        "_GridMaterial",
+        "GridMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D66134B1-3681-4A8E-AFE5-29F257229F3B",
         "Root"
       ],
       {
@@ -198,25 +217,6 @@
       [
         "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
         "Root",
-        "Rocket"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
-        "Root",
-        "Rocket",
-        "Materials"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
-        "Root",
         "GridMaterial"
       ],
       {
@@ -227,8 +227,15 @@
         "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
         "Root",
         "Rocket",
-        "Meshes",
-        "Sketchfab_model"
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -238,6 +245,15 @@
         "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
         "Root",
         "Earth"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
+        "Root",
+        "Rocket"
       ],
       {
         "isExpanded" : true,
@@ -257,7 +273,9 @@
       },
       [
         "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
-        "Root"
+        "Root",
+        "Rocket",
+        "Materials"
       ],
       {
         "isExpanded" : true,
@@ -267,7 +285,8 @@
         "DDC40C00-C7DB-4C2E-9E8F-2D7EE7016D03",
         "Root",
         "Rocket",
-        "Meshes"
+        "Meshes",
+        "Sketchfab_model"
       ],
       {
         "isExpanded" : true,
