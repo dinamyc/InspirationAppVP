@@ -9,7 +9,7 @@ import SwiftUI
 import RealityKit
 import RealityKitContent
 
-struct CapsuleRealityArea: View {
+struct BoatRealityArea: View {
     var body: some View {
         RealityView { content in
             guard let entity = try? await Entity(named: "Scene", in: realityKitContentBundle) else { fatalError ("Unable to load scene model") }
@@ -19,6 +19,6 @@ struct CapsuleRealityArea: View {
 }
 
 #Preview {
-    CapsuleRealityArea()
+    BoatRealityArea()
         .environment(ViewModel())
 }

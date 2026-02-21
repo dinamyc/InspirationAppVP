@@ -8,7 +8,7 @@
 import Foundation
 
 enum Area: String, Identifiable, CaseIterable, Equatable {
-    case oceanCreatures, equipment, mission
+    case oceanCreatures, transportation, submarine
     var id: Self { self }
     var name: String { rawValue.lowercased() }
     
@@ -16,10 +16,10 @@ enum Area: String, Identifiable, CaseIterable, Equatable {
         switch self {
         case.oceanCreatures:
             "Discover Marine Life..."
-        case.equipment:
-            "Inspiration 4 mission equipment..."
-        case.mission:
-            "Inspiration 4 mission trailer"
+        case.transportation:
+            "Ocean transportation..."
+        case.submarine:
+            "Discover a submarine.. "
         }
     }
 }

@@ -19,13 +19,13 @@ struct EquipmentArea: View {
         @Bindable var model = model
         
         HStack {
-            EquipmentCard(isShowing: $model.isShowingRocketCapsule, toggleTitle: "Rocket Capsule (Volumetric)", imageName: "equipment-capsule") {
+            EquipmentCard(isShowing: $model.isShowingRocketCapsule, toggleTitle: "Boat (Volumetric)", imageName: "equipment-boat") {
                 openWindow(id: model.capsuleRealityAreaId)
             } dismissCard: {
                 dismissWindow(id: model.capsuleRealityAreaId)
             }
             
-            EquipmentCard(isShowing: $model.isShowingFullRocket, toggleTitle: "Rocket (Full Immersive Space)", imageName: "equipment-fullrocket") {
+            EquipmentCard(isShowing: $model.isShowingFullRocket, toggleTitle: "Submarine (Full Immersive Space)", imageName: "equipment-submarine") {
                 await openImmersiveSpace(id: model.fullRocketRealityArea)
             } dismissCard: {
                 await dismissImmersiveSpace()

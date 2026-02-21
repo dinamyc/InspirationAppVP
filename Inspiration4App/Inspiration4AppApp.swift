@@ -15,11 +15,10 @@ struct Inspiration4AppApp: App {
         WindowGroup {
            Areas()
                 .environment(model)
-        }//.windowStyle(.plain)// to remove background blur
-            //.defaultSize(CGSize(width: 200, height: 400))//in oprder to see and potentially resize
+        }
         
         WindowGroup(id: model.capsuleRealityAreaId){
-            CapsuleRealityArea()
+            BoatRealityArea()
                 .environment(model)
         }
         .windowStyle(.volumetric)
@@ -30,11 +29,5 @@ struct Inspiration4AppApp: App {
                 .environment(model)
         }
         .immersionStyle(selection: .constant(.full), in: .full)
-        
-        /*ImmersiveSpace(id: model.mixedRocketRealityArea){
-            FullRocketRealityArea()
-                .environment(model)
-        }
-        .immersionStyle(selection: .constant(.mixed), in: .mixed)*/
     }
 }

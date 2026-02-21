@@ -30,10 +30,10 @@ struct NavigationToAreas: View {
                             if area == Area.oceanCreatures {
                                 OceanArea()
                             }
-                            else if area == Area.equipment {
+                            else if area == Area.transportation {
                                 EquipmentArea()
                             }
-                            else if area == Area.mission {
+                            else if area == Area.submarine {
                                 SubmarineRealityArea()
                             }
                             
