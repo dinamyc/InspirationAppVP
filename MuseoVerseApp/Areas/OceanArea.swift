@@ -1,6 +1,6 @@
 //
 //  OceanArea.swift
-//  Inspiration4App
+//  MuseoVerseApp
 //
 //  Created by Jose Luis Enriquez on 2/11/26.
 //

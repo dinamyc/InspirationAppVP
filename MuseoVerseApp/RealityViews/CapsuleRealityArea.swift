@@ -1,6 +1,6 @@
 //
 //  CapsuleRealityArea.swift
-//  Inspiration4App
+//  MuseoVerseApp
 //
 //  Created by Jose Luis Enriquez on 2/16/26.
 //

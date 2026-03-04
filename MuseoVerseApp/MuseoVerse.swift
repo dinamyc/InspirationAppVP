@@ -1,6 +1,6 @@
 //
-//  Inspiration4AppApp.swift
-//  Inspiration4App
+//  MuseoVerseApp.swift
+//  MuseoVerseApp
 //
 //  Created by Jose Luis Enriquez on 2/11/26.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Inspiration4AppApp: App {
+struct MuseoVerseApp: App {
     @State private var model = ViewModel()
 
     var body: some Scene {

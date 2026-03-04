@@ -1,6 +1,6 @@
 //
 //  Area.swift
-//  Inspiration4App
+//  MuseoVerseApp
 //
 //  Created by Jose Luis Enriquez on 2/11/26.
 //
@@ -14,12 +14,12 @@ enum Area: String, Identifiable, CaseIterable, Equatable {
     
     var title: String{
         switch self {
-        case.oceanCreatures:
-            "Discover Marine Life..."
-        case.transportation:
-            "Ocean transportation..."
         case.submarine:
             "Discover a submarine.. "
+        case.transportation:
+            "Ocean transportation..."
+        case.oceanCreatures:
+            "Discover Marine Life..."
         }
     }
 }
